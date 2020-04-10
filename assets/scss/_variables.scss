@@ -1,0 +1,27 @@
+@import "~bulma/sass/utilities/_all";
+
+$yellow:#f9D342;
+$black:#292826;
+$red:#ec4d37;
+
+
+$family-primary:'Montserrat', sans-serif;
+
+$primary:$yellow;
+
+$primary-invert: findColorInvert($primary);
+
+$warning:$red;
+
+$colors: (
+    "white": ($white, $black),
+    "black": ($black, $white),
+    "light": ($light, $light-invert),
+    "dark": ($dark, $dark-invert),
+    "primary": ($primary, $primary-invert),
+    "info": ($info, $info-invert),
+    "success": ($success, $success-invert),
+    "warning": ($warning, $warning-invert),
+    "danger": ($danger, $danger-invert),
+    
+);
